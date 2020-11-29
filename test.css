@@ -1,0 +1,115 @@
+html, body {}
+
+h1 {
+    font-family: "Special Elite", cursive;
+    text-align: center;
+    height: 225px;
+    background-color: black;
+    color:white;
+    font-size: 75px;
+    padding:0%;
+    width:100%;
+    padding-top:5%;
+    margin:none;
+}
+
+
+h2.footer {
+    font-family: "Special Elite", cursive;
+    font-size: 50px;
+    float:right;
+    color:grey;
+    margin-top:80px;
+    display: block;
+    opacity: 34%;
+}
+
+    
+.copy{ 
+    font-family: "Manrope", sans-serif;
+    text-align:justify;
+    color: rgb(43, 40, 40);
+    text-indent: 5px;
+    font-size:20px;
+    }
+
+
+.container {
+    text-align:left;
+    float:left;
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+
+#Jasonpic {
+    float:right;
+    margin-right:5%;
+    margin-top:3%;
+}
+
+#EarlyPic{
+    margin-top:10%;
+    padding:none;
+}
+
+#FamilyPics{
+    margin-top:10%;
+}
+
+#JasonAdv {
+    margin-top:15%;
+}
+
+#carousel {
+    margin-top:10%;
+
+}
+
+
+#shark{
+    margin-top:10%;
+}
+#years, #fam, #Adventures, #Thisis, #sail {
+    margin-top:100px;
+}
+
+
+.figure{
+    float:right;
+    margin-top:5%;
+    margin-right:5%;
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color:gray;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
