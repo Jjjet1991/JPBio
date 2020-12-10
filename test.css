@@ -39,7 +39,7 @@ h2.footer {
     text-align:left;
     float:left;
     margin-left: 160px;
-    padding: 0px 10px;
+    padding: 0px;
 }
 
 
@@ -63,18 +63,12 @@ h2.footer {
 
 #JasonAdv {
     margin-top:15%;
+    float:right;
+    margin-left:-2%;
+    
 }
 
-#carousel {
-    margin-top:10%;
-
-}
-
-
-#shark{
-    margin-top:10%;
-}
-#years, #fam, #Adventures, #Thisis, #sail {
+#years, #family2, #Adventures, #Forty, #famlink, #sail {
     margin-top:100px;
 }
 
@@ -157,6 +151,7 @@ h2.footer {
 #sailphotos {
      float:right;
      margin-top:15%;
+     margin-left:5%;
  }
 
 #under{
@@ -172,9 +167,11 @@ h2.footer {
     margin-left:5%;    
 }
 
-#fam, #mexico {
+
+#mexico{
     margin-left:5%;
 }
+
 #trinity{
     float:left;
     padding:0;
@@ -184,6 +181,40 @@ h2.footer {
     margin-left:-2%;
 }
 
+#fam {
+    margin-left:5%;
+    margin-top:10%;
+}
 
+#thisis{
+    margin-left:5%;
+    margin-top:10%;
+
+}
+
+
+#thisisphoto {
+    float:right;
+    margin-top:190px;
+    margin-left:-10%;
+    
+}
+
+#carousel {
+    margin-top:15%;
+    margin-left: -15%;
+    padding:0;
+    margin-right:10%;
+}
+
+#shark {
+    margin-left:25%;
+    clear: both;
+}
+
+#sailtxt{
+    margin-left:5%;
+    margin-top:10%;
+}
 
 
