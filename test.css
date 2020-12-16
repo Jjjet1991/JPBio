@@ -1,4 +1,9 @@
-html, body {}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -51,23 +56,15 @@ h1 {
     float: right;
     margin-right:0%;
     margin-top:3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
+    overflow: hidden;
 }
 
 
-h2.footer {
-    font-family: "Special Elite", cursive;
-    font-size: 60px;
-    float:right;
-    color:grey;
-    margin-top:80px;
-    display: block;
-    opacity: 34%;
-    width:75%;
-    margin-left:0;
-    margin-right:0;
-}
 
 /*------------------------------Whole Page Style------*/
+
+
 
 h2 {
     font-family: "Special Elite", cursive;
@@ -91,6 +88,7 @@ h4 {
 
 #years, #family2, #Adventures, #Forty, #famlink, #saila, #sharea {
     margin-top:110px;
+    overflow: hidden;
 }
     
 .copy{ 
@@ -100,6 +98,7 @@ h4 {
     text-indent: 5px;
     font-size:20px;
     margin:5%;
+
     
     }
 
@@ -107,9 +106,10 @@ h4 {
 .container {
     text-align:left;
     float:left;
-    margin-left: 160px;
-    padding: 0px;
+    margin-left: 7%;
+    padding: 5px;
     margin-right:0px;
+
 }
 
 .container-fluid{
@@ -123,7 +123,31 @@ h4 {
     float:right;
     margin-top:5%;
     margin-right:2%;
+    
 }
+
+/* unvisited link */
+.link {
+    text-emphasis: italic;
+    color:#262673;
+    text-decoration: underline;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: gray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-emphasis: bold;
+    color:#262673;
+  }
+  
+  /* selected link */
+  a:active {
+    color:#262673;
+  }
 
 
 /*---------------------------Nav Bar-----------------------*/
@@ -148,10 +172,12 @@ h4 {
     font-size: 25px;
     color: black;
     display: block;
+    margin-top:10%;
   }
   
   .sidenav a:hover {
     color: #f1f1f1;
+    border: 1px solid black;
   }
   
 
@@ -166,56 +192,76 @@ h4 {
 }
 
 /*-------------------------- Early Years-------------------*/
-
-#EarlyPic{
-    margin-top:10%;
-    height:300px;
-    width:300px;
-    margin-bottom:15%;
+   #mom, #dad {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.2);
+       margin:0;
+       float:left;
+       
     }
 
- #early #years {
-     margin-left:4%;    
+    #earlyyears {
+        overflow:hidden;
+        position: relative;
     }
 
-#years {
-    margin-left:3%;
-    margin-right:0;
-    }
 
 
     /*--------------------------Family-----------------------------------*/
 
-
-#FamilyPics{
-    margin-top:10%;
-    float:left;
-    margin-left:5%;
-    margin-right:0;
+#famtxt {
+    margin-right: 2.5%;
 }
 
-#fam {
-    margin-left:5%;
-    margin-top:20%;
+#family {
+    margin-left:7%;
+    width:auto;
+    float:left;
+    margin-right:5%;
+    margin-top: 5%;
+}
+
+#famphotos {
+    margin-top:50px;
+    position: inline;
 }
 
 .logo {
     height:50px;
     width:50px;
+    
 }
 
-#trinityinfo, #zachinfo {
-    margin-top:5%;
-    clear:both;
+#trinityinfo {
+    margin-left:25px;
+    margin-right: 0px;
     background-color:rgb(211,211,211);
     border: 3px solid black;
-    margin-right:0;
+    margin-top : 10%;
+    margin-bottom: 5%;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
+
+}
+
+
+
+#zachinfo {
+    margin-left:2px;
+    background-color:rgb(211,211,211);
+    border: 3px solid black;
+    margin-top : 10%;
+    margin-bottom: 5%;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
 }
 
 .list-group-item {
     background-color:rgb(211,211,211);
 }
 
+.card-title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.75em;
+    text-decoration: underline;
+}
 
 /*--------------------------Adventure-----------------------------*/
 
@@ -227,10 +273,11 @@ h4 {
 }
 
 #adventurephotos {
-    margin-right:-5%;
+    margin-right:0%;
     float:left;
     margin-top:10%;
-    margin-left:5%;
+    margin-left:3%;
+    
    
 
 }
@@ -243,6 +290,11 @@ h4 {
 
 }
 
+#jpmex1, #jpmex2, #jpmex3, #jpmex4, #jpmex5 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.5);
+    margin-top: 25%;
+}
+
 /*----------------------This Is 40--------------------------------------*/
 
 #thisis{
@@ -251,15 +303,21 @@ h4 {
 }
 
 #ticar{
-    text-align:center;
-    width:66.66;
+    float:right;
     margin-right:0;
+    margin-left:3%;
+    margin-top: 15%;
+
  }
  
  #forty {
-     width:75%;
-     margin-top:2%;
-     margin-right:5%;
+     float:left;
+     margin-left:5%;
+ }
+
+ #shark {
+     float:left;
+     margin-left: -7%;
  }
  
  #button{
@@ -275,10 +333,11 @@ h4 {
  }
 
 
+
  /*----------------------Sail Away----------------------------------------------------------*/
 
  #sail {
-    margin-left :15%;
+    margin-left :10%;
     margin-right:3%;
  }
 
@@ -290,6 +349,7 @@ h4 {
 
  #sailboat1, #sailboat2 {
      margin-top:10%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
  }
 
  #sailtxt {
@@ -302,8 +362,33 @@ h4 {
 /*-------------------------------Share A Memory-----------------------------*/
 
 #memory{
-    margin-left:5%;
+    margin-left:10%;
     
+}
+
+
+/*-------------------------------------Footer-------------------------------------------*/
+
+
+#footer {
+    height :150px;
+    background-color:black;
+    margin-top:10%;
+    width:100%;
+    color:white;
+    text-align:center;
+    padding:3%;
+    margin-top:10%;
+    overflow:hidden;
+
+
+}
+
+
+#footer h2 {
+    font-size:60px;
+    overflow:hidden;
+
 }
 
 
