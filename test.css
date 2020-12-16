@@ -126,28 +126,15 @@ h4 {
     
 }
 
-/* unvisited link */
-.link {
-    text-emphasis: italic;
-    color:#262673;
+a.link {
+    color:darkblue;
     text-decoration: underline;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: gray;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    text-emphasis: bold;
-    color:#262673;
-  }
-  
-  /* selected link */
-  a:active {
-    color:#262673;
-  }
+}
+
+a.link:hover {
+    color:black;
+    text-emphasis:bold;
+}
 
 
 /*---------------------------Nav Bar-----------------------*/
@@ -320,19 +307,6 @@ h4 {
      margin-left: -7%;
  }
  
- #button{
-     color:white;
-     background-color:gray;
-     border:1px solid black;
-     float:left;
-     margin-top:5%;
-     margin-left:30%;
-     width:500px;
-     font-family: "Special Elite", cursive;
-     font-size:2em;
- }
-
-
 
  /*----------------------Sail Away----------------------------------------------------------*/
 
